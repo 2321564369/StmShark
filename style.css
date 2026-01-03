@@ -76,3 +76,13 @@
 .pulse {
     animation: pulse 2s infinite;
 }
+.chart-container {
+    position: relative;
+    height: 360px; /* 👈 change if you want */
+    width: 100%;
+}
+
+canvas {
+    box-sizing: border-box;
+}
+
